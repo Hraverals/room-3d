@@ -6,7 +6,7 @@ const SERVER_URL = import.meta.env.VITE_SERVER_URL;
 const RoomWrite = () => {
     const [name, setName] = useState('');
     const [description, setDescription] = useState('');
-    const [files, setFiles] = useState([]); // 파일 목록 저장
+    const [files, setFiles] = useState([]);
     const [isUploading, setIsUploading] = useState(false)
 
     const navigate = useNavigate();
